@@ -93,6 +93,7 @@ h2 {
 .imagen1 {
   display: flex;
   position: relative;
+  justify-content: space-around;
   left: 80px;
   top: 10px;
   height: 200px;
