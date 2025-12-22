@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+}
+.menu-panel {
+  max-width: 600px;
+  background: #cf87e5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #cc0070;
+}
+
+.top-menu {
+  margin-bottom: 20px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #d4ccff;
+  border-radius: 8px;
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px 15px;
+}
+
+.menu-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.cta-button {
+  padding: 10px;
+  background-color: #6200ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+
+.info-section p:first-child{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.intro, p:not(:first-child){
+    padding: 10px;
+}
+.menu-panel li:nth-child(odd) {
+    color: rgb(138, 98, 98)
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff5cc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  border: 1px solid #669cff;
+  border-radius: 6px;
+}
+
+.submenu li {
+  padding: 10px;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
