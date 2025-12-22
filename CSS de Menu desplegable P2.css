@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  font-family: Arial, sans-serif;
+  color: blue;
 }
 .menu-panel {
   max-width: 600px;
