@@ -90,3 +90,11 @@ h2 {
 .has-submenu:hover .submenu {
   display: block;
 }
+.imagen1 {
+  display: flex;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  height: 200px;
+  width: 350px;
+}
